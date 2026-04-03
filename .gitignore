@@ -1,1 +1,3 @@
-node_modules/\n.env\ntransactions.json\nvideo/node_modules/
+node_modules/
+transactions.json
+video/node_modules/
