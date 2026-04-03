@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "remotion studio src/index.js",
+    "render": "remotion render src/index.js OWSTaxPolicy out/demo.mp4"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@remotion/cli": "^4.0.443",
     "@remotion/player": "^4.0.443",
