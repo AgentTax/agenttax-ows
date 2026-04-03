@@ -1,8 +1,8 @@
 # AgentTax for OWS
 
-**Tax-compliant agent payments for Open Wallet Standard.**
+**Tax-compliant agent payments for [Open Wallet Standard](https://openwallet.sh).**
 
-Every AI agent that buys or sells services has tax obligations. Most don't know it. `ows-tax-policy` is a pre-signing policy plugin for OWS that calculates sales tax, use tax, and 1099 reporting requirements before your agent's wallet signs a transaction.
+[OWS](https://github.com/open-wallet-standard/core) is the emerging wallet standard for AI agents — local custody, policy-gated signing, multi-chain. AgentTax for OWS is a pre-signing policy plugin that calculates sales tax, use tax, and 1099 reporting requirements before your agent's wallet signs a transaction.
 
 Built on [AgentTax.io](https://agenttax.io) — the tax engine for AI-to-AI commerce.
 
@@ -75,7 +75,7 @@ ows sign tx --wallet agent-treasury --chain ethereum --tx "0x..."
 
 ## What Gets Logged
 
-Every transaction produces a log entry in `transactions.json`:
+Every transaction produces a log entry in `transactions.json` (see `transactions.example.json` for sample output):
 
 ```json
 {
@@ -95,22 +95,23 @@ Every transaction produces a log entry in `transactions.json`:
 
 ## Why This Matters
 
-AI agents are already transacting on-chain. They buy compute, sell research, trade assets. Every one of these transactions has potential tax implications:
+AI agents are already transacting on-chain. They buy compute, sell research, trade assets — increasingly via machine-native payment protocols like [x402](https://www.x402.org/). Every one of these transactions has potential tax implications:
 
 - **Sales tax** varies by state (0% in Oregon, 10.25% in parts of California)
 - **Use tax** applies when the seller doesn't collect
 - **1099 reporting** is required for $600+ paid to any single counterparty
 - **Nexus rules** determine which states can tax you
 
-No agent handles this today. `ows-tax-policy` makes it automatic — calculate before you sign, log everything, alert on thresholds.
+No agent handles this today. As HTTP-native payments (x402, MCP tool calls with payment headers) become standard, the volume of untaxed agent transactions will explode. AgentTax for OWS makes compliance automatic — calculate before you sign, log everything, alert on thresholds.
 
 ## Tech Stack
 
 - **Policy**: Node.js ES modules, OWS PolicyContext interface
 - **Tax Engine**: [AgentTax.io](https://agenttax.io) — 51 jurisdictions, 105 zip-level rates
 - **Dashboard**: React + Vite (inline styles, no dependencies beyond React)
+- **Video**: [Remotion](https://remotion.dev) — programmatic demo video
 - **Chains**: EVM (Ethereum, Base, Polygon, Arbitrum), Solana, Bitcoin
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE)

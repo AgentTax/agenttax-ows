@@ -1,0 +1,36 @@
+[
+  {
+    "id": "txn_1775249786107",
+    "timestamp": "2026-04-03T20:56:24.626Z",
+    "chain": "Base",
+    "chain_id": "eip155:8453",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "amount_raw": "156250000000000000",
+    "amount_usd": 500,
+    "tax": 0,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "work_type": "compute",
+    "status": "tax_calculated",
+    "agenttax_response": "...truncated..."
+  },
+  {
+    "id": "txn_1775249787328",
+    "timestamp": "2026-04-03T20:56:26.925Z",
+    "chain": "Ethereum Mainnet",
+    "chain_id": "eip155:1",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount_raw": "93750000000000000",
+    "amount_usd": 300,
+    "tax": 12,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "work_type": "research",
+    "status": "tax_calculated",
+    "agenttax_response": "...truncated..."
+  }
+]
