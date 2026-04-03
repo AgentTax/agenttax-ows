@@ -1,0 +1,19 @@
+{
+  "name": "agenttax-compliance",
+  "description": "Tax compliance check via AgentTax before signing transactions",
+  "version": "1.0.0",
+  "rules": {
+    "allowed_chains": [
+      "eip155:1",
+      "eip155:8453",
+      "eip155:137",
+      "eip155:42161",
+      "solana:mainnet"
+    ]
+  },
+  "executable": {
+    "command": "node",
+    "args": ["policy/tax-check.js"],
+    "timeout_ms": 5000
+  }
+}

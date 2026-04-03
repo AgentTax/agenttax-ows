@@ -1,0 +1,22 @@
+{
+  "name": "ows-tax-policy",
+  "version": "1.0.0",
+  "description": "Tax-compliant agent payments — OWS policy plugin + MCP server + dashboard",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo/run-demo.js",
+    "dashboard": "npx vite dashboard",
+    "mcp": "node mcp-server/index.js"
+  },
+  "dependencies": {
+    "@open-wallet-standard/core": "latest"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "keywords": ["ows", "open-wallet-standard", "tax", "compliance", "agent", "mcp"],
+  "license": "MIT"
+}

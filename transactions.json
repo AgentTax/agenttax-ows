@@ -1,0 +1,257 @@
+[
+  {
+    "id": "txn_1775249786107",
+    "timestamp": "2026-04-03T20:56:24.626Z",
+    "chain": "Base",
+    "chain_id": "eip155:8453",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "amount_raw": "156250000000000000",
+    "amount_usd": 500,
+    "tax": 0,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "work_type": "compute",
+    "status": "tax_calculated",
+    "agenttax_response": {
+      "success": true,
+      "engine_version": "1.5",
+      "transaction_id": "txn_mnjdvxql_8ksym6",
+      "timestamp": "2026-04-03T20:56:26.253Z",
+      "mode": "demo",
+      "role": "buyer",
+      "amount": 500,
+      "buyer_state": "CA",
+      "buyer_zip": null,
+      "transaction_type": "service",
+      "work_type": "compute",
+      "classification_basis": "data_processing",
+      "is_b2b": false,
+      "total_tax": 0,
+      "combined_rate": 0.0725,
+      "confidence": {
+        "score": 82,
+        "level": "high"
+      },
+      "disclaimer": "This calculation is informational only and does not constitute tax advice. Consult a qualified tax professional for compliance decisions.",
+      "upgrade": {
+        "message": "Demo mode returns simplified results. Create a free account for full audit trails, jurisdiction details, advisories, transaction history, and nexus monitoring.",
+        "signup": {
+          "method": "POST",
+          "endpoint": "/api/v1/auth/signup",
+          "body": {
+            "email": "string",
+            "password": "string",
+            "agent_name": "string"
+          }
+        },
+        "free_tier": "100 calls/mo at $0 — full response data, persistent state"
+      }
+    }
+  },
+  {
+    "id": "txn_1775249787328",
+    "timestamp": "2026-04-03T20:56:26.925Z",
+    "chain": "Ethereum Mainnet",
+    "chain_id": "eip155:1",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount_raw": "93750000000000000",
+    "amount_usd": 300,
+    "tax": 12,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "work_type": "research",
+    "status": "tax_calculated",
+    "agenttax_response": {
+      "success": true,
+      "engine_version": "1.5",
+      "transaction_id": "txn_mnjdvyrf_ncwmcc",
+      "timestamp": "2026-04-03T20:56:27.579Z",
+      "mode": "demo",
+      "role": "buyer",
+      "amount": 300,
+      "buyer_state": "NY",
+      "buyer_zip": null,
+      "transaction_type": "service",
+      "work_type": "research",
+      "classification_basis": "information_service",
+      "is_b2b": false,
+      "total_tax": 12,
+      "combined_rate": 0.04,
+      "confidence": {
+        "score": 87,
+        "level": "high"
+      },
+      "disclaimer": "This calculation is informational only and does not constitute tax advice. Consult a qualified tax professional for compliance decisions.",
+      "upgrade": {
+        "message": "Demo mode returns simplified results. Create a free account for full audit trails, jurisdiction details, advisories, transaction history, and nexus monitoring.",
+        "signup": {
+          "method": "POST",
+          "endpoint": "/api/v1/auth/signup",
+          "body": {
+            "email": "string",
+            "password": "string",
+            "agent_name": "string"
+          }
+        },
+        "free_tier": "100 calls/mo at $0 — full response data, persistent state"
+      }
+    }
+  },
+  {
+    "id": "txn_1775249788448",
+    "timestamp": "2026-04-03T20:56:28.048Z",
+    "chain": "Base",
+    "chain_id": "eip155:8453",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "amount_raw": "62500000000000000",
+    "amount_usd": 200,
+    "tax": 0,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "work_type": "content",
+    "status": "tax_calculated",
+    "agenttax_response": {
+      "success": true,
+      "engine_version": "1.5",
+      "transaction_id": "txn_mnjdvzmf_ktv0i7",
+      "timestamp": "2026-04-03T20:56:28.695Z",
+      "mode": "demo",
+      "role": "buyer",
+      "amount": 200,
+      "buyer_state": "FL",
+      "buyer_zip": null,
+      "transaction_type": "service",
+      "work_type": "content",
+      "classification_basis": "digital_service",
+      "is_b2b": false,
+      "total_tax": 0,
+      "combined_rate": 0.06,
+      "confidence": {
+        "score": 82,
+        "level": "high"
+      },
+      "disclaimer": "This calculation is informational only and does not constitute tax advice. Consult a qualified tax professional for compliance decisions.",
+      "upgrade": {
+        "message": "Demo mode returns simplified results. Create a free account for full audit trails, jurisdiction details, advisories, transaction history, and nexus monitoring.",
+        "signup": {
+          "method": "POST",
+          "endpoint": "/api/v1/auth/signup",
+          "body": {
+            "email": "string",
+            "password": "string",
+            "agent_name": "string"
+          }
+        },
+        "free_tier": "100 calls/mo at $0 — full response data, persistent state"
+      }
+    }
+  },
+  {
+    "id": "txn_1775249789518",
+    "timestamp": "2026-04-03T20:56:29.174Z",
+    "chain": "Polygon",
+    "chain_id": "eip155:137",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "amount_raw": "300000000",
+    "amount_usd": 1.5e-10,
+    "tax": 0,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "work_type": "consulting",
+    "status": "tax_calculated",
+    "agenttax_response": {
+      "success": true,
+      "engine_version": "1.5",
+      "transaction_id": "txn_mnjdw0g8_9lz27n",
+      "timestamp": "2026-04-03T20:56:29.768Z",
+      "mode": "demo",
+      "role": "buyer",
+      "amount": 1.5e-10,
+      "buyer_state": "NJ",
+      "buyer_zip": null,
+      "transaction_type": "service",
+      "work_type": "consulting",
+      "classification_basis": "digital_service",
+      "is_b2b": false,
+      "total_tax": 0,
+      "combined_rate": 0.06625,
+      "confidence": {
+        "score": 87,
+        "level": "high"
+      },
+      "disclaimer": "This calculation is informational only and does not constitute tax advice. Consult a qualified tax professional for compliance decisions.",
+      "upgrade": {
+        "message": "Demo mode returns simplified results. Create a free account for full audit trails, jurisdiction details, advisories, transaction history, and nexus monitoring.",
+        "signup": {
+          "method": "POST",
+          "endpoint": "/api/v1/auth/signup",
+          "body": {
+            "email": "string",
+            "password": "string",
+            "agent_name": "string"
+          }
+        },
+        "free_tier": "100 calls/mo at $0 — full response data, persistent state"
+      }
+    }
+  },
+  {
+    "id": "txn_1775249790645",
+    "timestamp": "2026-04-03T20:56:30.258Z",
+    "chain": "Base",
+    "chain_id": "eip155:8453",
+    "wallet_id": "demo-agent-treasury",
+    "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "amount_raw": "156250000000000000",
+    "amount_usd": 500,
+    "tax": 0,
+    "tax_jurisdiction": "Unknown",
+    "tax_rate": 0,
+    "counterparty_id": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "work_type": "compute",
+    "status": "tax_calculated",
+    "agenttax_response": {
+      "success": true,
+      "engine_version": "1.5",
+      "transaction_id": "txn_mnjdw1a8_iq7pzg",
+      "timestamp": "2026-04-03T20:56:30.848Z",
+      "mode": "demo",
+      "role": "buyer",
+      "amount": 500,
+      "buyer_state": "CA",
+      "buyer_zip": null,
+      "transaction_type": "service",
+      "work_type": "compute",
+      "classification_basis": "data_processing",
+      "is_b2b": false,
+      "total_tax": 0,
+      "combined_rate": 0.0725,
+      "confidence": {
+        "score": 82,
+        "level": "high"
+      },
+      "disclaimer": "This calculation is informational only and does not constitute tax advice. Consult a qualified tax professional for compliance decisions.",
+      "upgrade": {
+        "message": "Demo mode returns simplified results. Create a free account for full audit trails, jurisdiction details, advisories, transaction history, and nexus monitoring.",
+        "signup": {
+          "method": "POST",
+          "endpoint": "/api/v1/auth/signup",
+          "body": {
+            "email": "string",
+            "password": "string",
+            "agent_name": "string"
+          }
+        },
+        "free_tier": "100 calls/mo at $0 — full response data, persistent state"
+      }
+    }
+  }
+]
