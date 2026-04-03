@@ -1,5 +1,5 @@
 {
-  "name": "ows-tax-policy",
+  "name": "agenttax-ows",
   "version": "1.0.0",
   "description": "Tax-compliant agent payments — OWS policy plugin + MCP server + dashboard",
   "type": "module",

@@ -1,4 +1,4 @@
-# ows-tax-policy
+# AgentTax for OWS
 
 **Tax-compliant agent payments for Open Wallet Standard.**
 

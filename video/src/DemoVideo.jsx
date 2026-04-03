@@ -202,7 +202,7 @@ function CTASlide({ frame, fps }) {
         Calculate before you sign.
       </div>
       <div style={{ fontSize: 22, color: C.muted, marginBottom: 32 }}>
-        github.com/AgentTax/ows-tax-policy
+        github.com/AgentTax/agenttax-ows
       </div>
       <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
         <span style={{ fontSize: 20, color: C.blue, fontWeight: 600 }}>AgentTax.io</span>
